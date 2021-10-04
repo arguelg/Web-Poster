@@ -1,0 +1,28 @@
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            height: 15vh;
+            border-bottom: 1px solid #000;
+            border-left: 1px solid #000;
+            grid-template-columns: 2fr 2fr;
+        }
+
+        .speakers{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            height: 90vh;
+        }
+
+        .speaker{
+            height: 90vh;
+            border-left: 1px solid #000;
+            overflow-y: scroll;
+        }
+
+        img{
+            width: 250px;
+        }
